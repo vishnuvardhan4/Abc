@@ -1,0 +1,23 @@
+.gridParent div{
+    background-color: green;
+    color: white;
+    width: 100px;
+    border: 1px solid red;
+}
+.gridParent div:nth-child(even){
+    background-color: grey;
+}
+/* .gridParent{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+} */
+
+.gridParent{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows:repeat(7, 100px) ;
+    grid-gap: 20px;
+    
+}

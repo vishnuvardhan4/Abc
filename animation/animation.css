@@ -1,0 +1,65 @@
+#HeadingAnimation{
+   color: red;
+   /* animation-name: headingBackground;
+   animation-duration: 3s;
+   animation-iteration-count: infinite; */
+}
+/* @keyframes headingBackground{
+    from{
+        background-color: red;
+        color: white;
+        font-size: 40px;
+    }
+    to{
+        background-color: green;
+        color: blue;
+        font-size: 80px;
+    }
+} */
+#emojiBlock{
+    font-size: 150px;
+    animation-name:heartbakcground;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+/* @keyframes heartbakcground{
+    from{
+        color: red;
+        font-size: 100px;
+
+    }
+    to{
+        color: blue;
+        font-size: 200px;
+
+    }
+} */
+@keyframes heartbakcground{
+    0%{
+        font-size: 30px;
+        position:absolute;
+        top: 100px;
+        left: 100px;
+    }
+    10%{
+        font-size: 40px;
+    }
+    20%{
+        font-size:50px ;
+    }
+    30%{
+        font-size:60px ;
+    }
+    40%{
+        font-size:70px ;
+    }
+    50%{
+        font-size:80px ;
+    }
+    60%{
+        font-size:90px ;
+    }
+    70%{
+        font-size:100px ;
+    }
+}
