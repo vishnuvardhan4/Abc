@@ -105,9 +105,11 @@ function addition(){
     var b= Number(document.getElementById("bValue").value);
 
     var aName = document.getElementById("aValue").name;
-    var bName = document.getElementById("bValue").name;
+    var bName = document.getElementById("bValue" ).name;
     var add=a+b;
     
 console.log(`${aName} = ${a} and ${bName} = ${b} addition = ${add}`)
+document.getElementById("result").innerHTML=add
 }
 addition()
+ 
